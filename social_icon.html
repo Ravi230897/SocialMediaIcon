@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Social Icon</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+
+            .centerdiv{
+                height:100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a{
+                height:100px;
+                width:100px;
+                background-color:whitesmoke;
+                font-size:40px;
+                color:blue;
+                border-radius:40px;
+                text-align:center;
+                margin:10px;
+                line-height:100px;
+                box-shadow: 1px 4px 2px 2px #dcdde1;
+            }
+            .centerdiv a i{
+                transition: all 0.3s linear;
+            }
+
+            .centerdiv:hover i{
+                trasform: scale(1.4);
+            }
+
+            /**This is for icon color change*/
+            .fa-square-facebook{
+                color:blue;
+            }
+            .fa-youtube{
+                color:red;
+            }
+            .fa-square-instagram{
+                color:violet;
+            }
+            .fa-twitter{
+                color:darkblue;
+            }
+            .fa-telegram{
+                color:aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--<h1>This is for Social Icon</h1>-->
+       <div class="centerdiv">
+            <a>
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a>
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+       </div>
+    </body>
+</html>
